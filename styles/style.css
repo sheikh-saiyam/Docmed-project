@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* header & nav start */
+header {
+  margin: 2rem auto;
+  width: 80%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+nav ul {
+  display: flex;
+  gap: 2.5rem;
+}
+nav ul li {
+  list-style: none;
+  color: #7e7b84;
+  font-weight: 500;
+  cursor: pointer;
+}
+nav button {
+  padding: 0.8rem 1.8rem;
+  background-color: #009dff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+/* header & nav end */
+/* banner start */
+.invisible {
+  display: none;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebeef0;
+  align-items: center;
+}
+.banner-txt-box {
+  margin: 0rem 9.5rem;
+  width: 100%;
+}
+.banner-txt-box h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.banner-txt-box h1 span {
+  font-weight: 100;
+  opacity: 0.8;
+}
+.banner-txt-box p {
+  margin-top: 0.5rem;
+  color: #7e7b84;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5rem;
+  font-family: sans-serif;
+}
+.banner-txt-box .btn-banner {
+  background-color: #009dff;
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+/* banner end */
+/* 2nd banner start */
+.banner-2 {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr 1fr;
+}
+.row-1,
+.row-3 {
+  background-color: #83c4ff;
+  padding: 2rem 3rem;
+}
+.row-2 {
+  background-color: #5db2ff;
+  padding: 2rem 2rem;
+}
+.row-1,
+.row-2,
+.row-3,
+h3 {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.row-1,
+.row-2,
+.row-3,
+p {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: sans-serif;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.btn-banner-2 {
+  background-color: #83c4ff;
+  border: 1px solid #ffffff;
+  margin-top: 1.5rem;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.row-2 .btn-banner-2 {
+  background-color: #5db2ff;
+  border: 1px solid #ffffff;
+  margin-top: 1.5rem;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  color: #ffffff;
+}
+/* 2nd banner end */
+/* welcome banner start */
+.welcome-banner {
+  margin: 6.5rem auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+}
+.welcome-banner-txt-box h3 {
+  color: #7e7b84;
+  font-weight: 100;
+}
+.welcome-banner-txt-box h3 > span {
+  border-bottom: 3px solid #009dff;
+}
+.welcome-banner-txt-box h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.welcome-banner-txt-box p {
+  color: #7e7b84;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  width: 90%;
+}
+.welcome-banner-txt-box ul li {
+  color: #7e7b84;
+  line-height: 30px;
+}
+.welcome-banner-txt-box button {
+  background-color: #fff;
+  color: #5db2ff;
+  border: 1px solid #5db2ff;
+}
+/* welcome banner end */
+/* department start */
+.department {
+  background-color: #f5fbff;
+  height: 100%;
+  padding: 5rem 0rem 5rem 0rem;
+}
+.department h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.department h2 > span {
+  border-bottom: 3px solid #009dff;
+}
+.department-p {
+  color: #7e7b84;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.card-box {
+  margin: 2rem auto;
+  width: 80%;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 2rem;
+}
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+}
+.card h3 {
+  color: #000000;
+  text-align: left;
+  margin: 1rem 1.5rem;
+  font-family: 100;
+}
+.card p {
+  color: #7e7b84;
+  text-align: left;
+  margin: 1rem 1.5rem;
+}
+.card .pp {
+  color: #009dff;
+  text-align: left;
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+}
+/* img section*/
+.img-section {
+  background-image: url(../img/oi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+/* img section */
+/* doctors start */
+.doctors {
+  margin: 10rem auto;
+  width: 80%;
+}
+.doctor-box {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  gap: 2rem;
+}
+.doctor-card img {
+  width: 100%;
+}
+.dc-txt-box {
+  background-color: #f5fbff;
+  padding: 1rem;
+}
+.dc-txt-box h3 {
+  color: #000000;
+  font-weight: 500;
+}
+.dc-txt-box p {
+  color: #7e7b84;
+}
+/* doctors end */
+/* department end */
+/* care start */
+.care-section hr {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #dedede;
+}
+.care-box {
+  margin: 4rem auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.care-txt-box {
+  margin-top: -2rem;
+}
+.care-txt-box h4 {
+  font-size: larger;
+  font-weight: 500;
+}
+.care-txt-box p {
+  color: #7e7b84;
+}
+/* care end */
+/* last section start */
+/* .last-section-div{
+  display:flex;
+}
+.boy{
+  background-image: url(../img/boy.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  filter:grayscale(80%) ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.girl{
+  background-image: url(../img/girl.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  filter:grayscale(30%) ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.bg-txt-box{
+  margin: 5rem 1rem;
+}
+.bg-txt-box h3{
+  color: #ffffff;
+  font-weight: 100;
+}
+.bg-txt-box h6{
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  font-weight: 100;
+}
+.boy button{
+  padding: 0.5rem 2.5rem;
+  border: 2px solid #C7C8C9;
+  border-radius: 20px;
+  color: #C7C8C9;
+}
+.girl button{
+  padding: 0.5rem 2.5rem;
+  border: 2px solid #16576E;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #fff;
+} */
+/* last section end */
+/* footer-start */
+footer {
+  background-color: #1f1f1f;
+}
+.footer-txt-box {
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  padding: 8rem 0;
+}
+.footer-txt-box .stbox img{
+  width: 200px;
+}
+.footer-txt-box h4{
+  color: #fff;
+  font-size: larger;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.footer-txt-box p {
+  color: #727272;
+  width: 100%;
+}
+.footer-txt-box li{
+  list-style: none;
+  color: #727272;
+  margin-top: 1.5rem;
+}
+.copyright {
+  background-color: #000000;
+  padding: 2rem;
+  text-align: center;
+  color: #7e7b84;
+}
+/* footer-end */
+@media screen and (min-width: 769px) and (max-width: 1300px) {
+  header {
+    width: 100%;
+  }
+  nav {
+    margin: 0 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .banner-txt-box {
+    margin: 0 1rem;
+  }
+  .banner-img-box {
+    margin: 0 1rem;
+  }
+  .banner-img-box img {
+    width: 100%;
+  }
+  .banner .btn-banner {
+    margin-bottom: 1rem;
+  }
+  .welcome-banner {
+    flex-direction: column;
+    margin: 6.5rem auto;
+  }
+  .card-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .doctor-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .care-box{
+    justify-content: space-between;
+  }
+  .care-txt-box p {
+    width: 300px;
+  }
+  .care-img-box img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer-txt-box {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    margin: 0 1rem;
+  }
+  nav {
+    display: block;
+    margin-top: 0.5rem;
+  }
+  nav ul {
+    display: block;
+    margin: 0.5rem;
+  }
+  nav ul li{
+    margin-top: 0.5rem;
+  }
+  nav button {
+    margin-bottom: 1rem;
+  }
+  .banner {
+    background-color: #e8ebee;
+    flex-direction: column;
+  }
+  .invisible {
+    display: flex;
+    background-color: #ebeef0;
+  }
+  .invisible img {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .banner-img-box img {
+    display: none;
+  }
+  .banner-txt-box {
+    margin: 1rem;
+    width: 90%;
+  }
+  .banner-txt-box h1 {
+    font-size: 2rem;
+    width: 80%;
+  }
+  .banner-txt-box p {
+    font-size: 16px;
+    width: 90%;
+  }
+  .banner-txt-box .btn-banner {
+    padding: 0.5rem 1rem;
+  }
+  .banner-txt-box p > br {
+    display: none;
+  }
+  .banner-2 {
+    grid-template-columns: 1fr;
+  }
+  .welcome-banner {
+    flex-direction: column;
+  }
+  .welcome-banner-img-box img {
+    width: 100%;
+  }
+
+  .department h3,
+  p {
+    margin: 1rem;
+  }
+  .card-box {
+    grid-template-columns: 1fr;
+  }
+  .doctor-box {
+    grid-template-columns: 1fr;
+  }
+  .care-box {
+    flex-direction: column;
+  }
+  .care-img-box img {
+    width: 100%;
+  }
+  .footer-txt-box{
+    flex-direction: column;
+  }
+  .footer-txt-box br{
+    display: none;
+  }
+}
+
+
+
+
+
